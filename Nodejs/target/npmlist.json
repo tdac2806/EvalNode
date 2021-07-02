@@ -1,0 +1,1 @@
+{"version":"1.0.0","name":"b3api","dependencies":{"express":{"version":"4.17.1"},"jsonwebtoken":{"version":"8.5.1"},"moment":{"version":"2.29.1"},"mongoose":{"version":"5.12.5"}}}
