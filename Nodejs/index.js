@@ -8,7 +8,7 @@ var mongoose = require('mongoose')
 
 mongoose.Promise = Promise
 //user temporaire (1 semaine)
-mongoose.connect('mongodb+srv://TempUser:xF9mrGLrn66anag8@cluster0.2nqci.mongodb.net/b3api?retryWrites=true&w=majority', {useNewUrlParser: true, useUnifiedTopology: true, useFindAndModify : false})
+mongoose.connect('mongodb+srv://Temporary:O8Cc2AFjOThaZgWf@cluster0.2nqci.mongodb.net/b3api?retryWrites=true&w=majority', {useNewUrlParser: true, useUnifiedTopology: true, useFindAndModify : false})
 
 var db = mongoose.connection
 db.on('error', console.error.bind(console, "connection error: "))
